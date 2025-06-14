@@ -1,0 +1,25 @@
+# Ignore directories
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# API secrets
+.env
+
+# # SQLite DB (large, private, already generated)
+# knowledge_base.db
+
+# Scraped data (optional)
+downloaded_threads/
+markdown_files/
+
+#Ignore preprocess.py file
+preprocess.py
+
+# Playwright auth
+auth.json
+
+# OS files
+.DS_Store
+Thumbs.db
